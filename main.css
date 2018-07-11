@@ -1,0 +1,373 @@
+html {
+    height: 100%   
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+
+/* ===================UNIVERSAL=================== */
+
+.btn-custom {
+    background-color: #ef6952;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(100, 100, 100, 0.4);
+    border-radius: 0;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.6;;
+}
+
+/* ====================================== */
+
+.top-banner {
+    background-color: #252525;
+    height: 50px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+    .top-banner p {
+        margin: 0;
+        padding: 12px;
+    }
+
+    .top-banner p > a {
+        font-weight: bolder;
+        color: white;
+    }
+
+.header {
+    text-transform: uppercase;
+    border-bottom: 1px solid lightgrey;
+}
+
+.header a:hover{
+    color: #ef6952 !important;
+}
+
+.header-logo {
+    padding: 0px 10px;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.header-login {
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.nav-items-right {
+    margin-left: 100px;
+    float: right;
+}
+    .nav-items-right span {
+        margin-left: 10px;
+        color: #ef6952;
+    }
+
+.header > a:hover {
+    color: #ef6952;
+}
+
+/* end header / nav */
+
+.top-featured-img {
+    position: relative;
+    height: 65vh;
+    background-image: url(http://res.cloudinary.com/dgy99vthu/image/upload/v1531287506/eepeng-cheong-505266-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+    .header-btn {
+        position: absolute;
+        top: 440px;
+        left: 200px;
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+        .button-custom:hover {
+            /* move? */
+        }
+
+.buy-it-container {
+    text-align: center;
+    padding: 40px;
+}
+    .buy-it-heading {
+        display: block;
+    }
+    .buy-it-subheading {
+        display: block;
+        width: 500px;
+        margin: 50px auto;
+    }
+
+    .numbox {
+        display: inline-block;
+        margin: 0 50px;
+    }
+
+    #numbox-1 {
+        width: 200px;
+        height: 200px;
+        background-image: url(assets/jsh-01.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+        #numbox-1 p {
+            text-align: left;
+            margin-top: 60px;
+            font-weight: bold;
+            border-bottom:  1px solid #252525;
+        }
+
+    #numbox-2 {
+        width: 200px;
+        height: 200px;
+        background-image: url(assets/jsh-02.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+        #numbox-2 p {
+            text-align: left;
+            margin-top: 60px;
+            font-weight: bold;
+            border-bottom: 1px solid #252525;
+        }
+    #numbox-3 {
+        width: 200px;
+        height: 200px;
+        background-image: url(assets/jsh-03.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 50px;
+    }
+
+        #numbox-3 p:nth-child(1){
+            text-align: left;
+            margin-top: 60px;
+            font-weight: bold;
+            border-bottom: 1px solid #252525;
+        }
+        #numbox-3 p {
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
+
+        .secondary-btn {
+            margin-top: 50px;
+        }
+
+
+.drinks-container {
+    height: 60vh;
+    background-image: url(http://res.cloudinary.com/dgy99vthu/image/upload/v1531294313/Jeff_Mindell_for_JSH_3_b6fyuz.jpg);
+    background-position: 0px -350px;
+    background-size: cover;
+    text-align: center;
+}
+
+    .drinks-heading {
+        display: inline-block;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        color: #252525;
+    }
+        .drinks-heading > h1 {
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        .drinks-heading > span {
+            color: #ef6952;
+        }
+        .drinks-subheading {
+            width: 390px;
+            display: block;
+            margin: 0 auto;
+        }
+        .drinks-subheading > h1 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .drinks-subheading > p {
+            text-align: center;
+        }
+
+.btn-outline-danger{
+    margin-top: 40px;
+    border: 2px solid #ef6952;
+    color: #ef6952;
+    fill: transparent;
+}
+    .btn-outline-danger:hover {
+        background-color: #ef6952;
+        color: white;
+        border: 2px solid #ef6952;
+    }
+
+
+    .pick-container {
+        padding: 40px;
+        text-align: center;
+    }
+        .picks-heading {
+            display: block;
+            margin: 0 auto;
+            width: 520px;
+            padding: 30px;
+        }
+        .picks-heading h1 {
+            margin: 20px;
+        }
+
+        .pick-container > span {
+            color: #ef6952;
+        }
+        .pick-grid {
+            display: grid;
+            padding: 50px;
+            grid-gap: 20px;
+            grid-template-columns:  1fr 1fr 1fr 1fr;
+            grid-template-rows: 300px;
+        }
+        .grid-box {
+            position: relative;
+        }
+            #grid-box-1 {
+                grid-column: 1 / 2;
+                background-image: url(http://schadedistributing.com/wp-content/uploads/2016/11/Green_Easy_Cold_Pressed_Juice_main.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #grid-box-2 {
+                grid-column: 2 / 3;
+                background-image: url(https://i0.wp.com/www.sweatthestyle.com/wp-content/uploads/2015/05/SweatTheStyle_CharcoalLemonade_JuiceServedHere.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #grid-box-3 {
+                grid-column: 3 / 4;
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJVlXDAt7MmlRABm4CNP9iHsoZjDT2yZB7_9h0G8MmN7BCTROZJg);
+                background-position: center;
+                background-size: cover;
+            }
+            #grid-box-4 {
+                grid-column: 4 / 5;
+                background-image: url(https://i2.wp.com/www.sweatthestyle.com/wp-content/uploads/2016/04/SweatTheStyle_JuiceServedHere_AlkaMizu.jpg?fit=1000%2C714);
+                background-position: center;
+                background-size: cover;
+            }
+            .grid-box:hover .grid-box-overlay {
+                opacity: 1;
+            }
+            .grid-box:hover .overlay-text {
+                opacity: 1;
+            }
+
+            .grid-box-overlay {
+                background: rgba(255, 255, 255, 0.8);
+                border: 2px solid #ef6952;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                opacity: 0;
+                -webkit-transition: all 0.4s ease-in-out 0s;
+                -moz-transition: all 0.4s ease-in-out 0s;
+                transition: all 0.4s ease-in-out 0s;
+            }
+
+            .overlay-text {
+                position: absolute;
+                text-align: center;
+                padding-left: 1em;
+                padding-right: 1em;
+                width: 100%;
+                top: 50%;
+                left: 50%;
+                opacity: 0;
+                color: #ef6952;
+                font-weight: bolder;
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                -webkit-transition: all 0.3s ease-in-out 0s;
+                -moz-transition: all 0.3s ease-in-out 0s;
+                transition: all 0.3s ease-in-out 0s;
+            }
+
+.shop-dropdown {
+    width: 100%;
+    margin-top: -5px;
+    padding: 0px;
+    padding-left: 60px;
+    padding-right: 0px;
+    font-size: .8em;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ef6952;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+    .shop-dropdown > ul {
+        margin-top: 15px;
+        margin-left: 50px;
+        margin-right: 10px;
+        list-style-type: none;
+        line-height: 2.5em;
+        float: left;
+    }
+    .shop-dropdown a {
+        color: #252525;
+    }
+    .shop-dropdown a:hover {
+        color: #ef6952;
+    }
+
+    .dropdown-img-container {
+        float: right;
+        height: 100%;
+        width: 550px;
+        margin-right: 0px;
+    }
+
+ @media only screen 
+  and (min-device-width: 992px) 
+
+    #dropdown-img {
+        display: none;
+    }
+    .shop-dropdown > ul {
+        display: block;
+        float: left;
+    }
+
+
+
+
+}
