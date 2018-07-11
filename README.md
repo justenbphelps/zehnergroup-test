@@ -81,5 +81,5 @@ finally
 - Changed logo width to percentage instead of set width to help responsive sizing
 - Double checked the rest of the site to make sure I wasn’t missing anything critical
 - Decided to write the documentation and make sure I didn’t go over the deadline!
-I hope my entry was up to your expectations. I really had a great time with this, and wanted to thank you again for giving me this opportunity.
+
 - Justen Phelps
